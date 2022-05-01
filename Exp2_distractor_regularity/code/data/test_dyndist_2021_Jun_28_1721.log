@@ -1,0 +1,452 @@
+0.4691 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+31.0741 	INFO 	Loaded monitor calibration from ['2020_12_13 09:48']
+31.9361 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7ff553164a90>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7ff5546a5780>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+31.9365 	EXP 	window1: mouseVisible = True
+31.9366 	EXP 	window1: recordFrameIntervals = False
+32.1017 	EXP 	window1: recordFrameIntervals = True
+32.2850 	DEBUG 	Screen (0) actual frame rate measured at 60.05
+32.2851 	EXP 	window1: recordFrameIntervals = False
+33.0420 	EXP 	Created instructions_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='instructions_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+33.0445 	EXP 	Created fixcross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineWidth=1, name='fixcross', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+33.0502 	EXP 	Created dist0 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='dist0', opacity=1.0, ori=0.0, pos=array([0.2, 0. ]), size=array([0.025, 0.025]), texRes=128, units='height', win=Window(...))
+33.0516 	EXP 	Created dist1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='dist1', opacity=1.0, ori=0.0, pos=array([ 0.14142136, -0.14142136]), size=array([0.025, 0.025]), texRes=128, units='height', win=Window(...))
+33.0528 	EXP 	Created dist2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='dist2', opacity=1.0, ori=0.0, pos=array([ 1.2246468e-17, -2.0000000e-01]), size=array([0.025, 0.025]), texRes=128, units='height', win=Window(...))
+33.0540 	EXP 	Created dist3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='dist3', opacity=1.0, ori=0.0, pos=array([-0.14142136, -0.14142136]), size=array([0.025, 0.025]), texRes=128, units='height', win=Window(...))
+33.0552 	EXP 	Created dist4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='dist4', opacity=1.0, ori=0.0, pos=array([-2.0000000e-01, -2.4492936e-17]), size=array([0.025, 0.025]), texRes=128, units='height', win=Window(...))
+33.0564 	EXP 	Created dist5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='dist5', opacity=1.0, ori=0.0, pos=array([-0.14142136,  0.14142136]), size=array([0.025, 0.025]), texRes=128, units='height', win=Window(...))
+33.0576 	EXP 	Created dist6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='dist6', opacity=1.0, ori=0.0, pos=array([-3.6739404e-17,  2.0000000e-01]), size=array([0.025, 0.025]), texRes=128, units='height', win=Window(...))
+33.0586 	EXP 	Created dist7 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='dist7', opacity=1.0, ori=0.0, pos=array([0.14142136, 0.14142136]), size=array([0.025, 0.025]), texRes=128, units='height', win=Window(...))
+33.0596 	EXP 	Created Target = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='Target', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.025, 0.025]), texRes=128, units='height', win=Window(...))
+33.0605 	EXP 	Created Distractor = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='Distractor', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.025, 0.025]), texRes=128, units='height', win=Window(...))
+33.3857 	EXP 	Created fixcross_search = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-2.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineWidth=1, name='fixcross_search', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+33.3879 	EXP 	Created feedback_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='feedback_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+33.3934 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='Break', units='height', win=Window(...), wrapWidth=1)
+33.7495 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+34.1045 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+34.4683 	EXP 	Created finish_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='finish_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+34.8782 	EXP 	instructions_text: text = 'Visual Search\nIn this experiment, you will see a display with many letters.\nOne of the letters will be a "T", this is the target.\nThe task is to find the target letter and determine whether the base of the "T" is pointing to the left or right.\nSometimes there will also be different letters.This is not the target, please ignore it.If the target "T" is pointing to the left please press the "f" key (with your left hand); \nIf the target "T" is pointing to the right please press the  "j" key (with your right hand).\nPlease try to respond as quickly and accurately as possible.\n\n\nWhen you are ready, press space to continue'
+34.8782 	EXP 	instructions_text: autoDraw = True
+58.6457 	DEBUG 	Read csv file with pandas: sequences_ori/seq_7.csv
+58.6486 	DEBUG 	Clearing unnamed columns from sequences_ori/seq_7.csv
+58.7060 	EXP 	Imported sequences_ori/seq_7.csv as conditions, 960 conditions, 8 params
+58.7083 	EXP 	Created sequence: sequential, trialTypes=960, nReps=1, seed=None
+58.7087 	EXP 	New trial (rep=0, index=0): OrderedDict([('tar_ori', 2), ('tar_pos', 3), ('dist_tilt', 2), ('dist_pos', 1), ('tar_pos_type', 1), ('dist_pos_type', 1), ('dist_letter', 0), ('dist_ori', 0)])
+58.7190 	DATA 	Keypress: space
+58.7376 	EXP 	instructions_text: autoDraw = False
+58.7376 	EXP 	fixcross: size = array([0.025, 0.025])
+58.7376 	EXP 	fixcross: autoDraw = True
+59.6877 	EXP 	fixcross: autoDraw = False
+59.6877 	EXP 	dist0: image = <class 'numpy.ndarray'>
+59.6877 	EXP 	dist0: ori = 90.0
+59.6877 	EXP 	dist0: autoDraw = True
+59.6877 	EXP 	dist1: autoDraw = False
+59.6877 	EXP 	dist2: image = <class 'numpy.ndarray'>
+59.6877 	EXP 	dist2: ori = 270.0
+59.6877 	EXP 	dist2: autoDraw = True
+59.6877 	EXP 	dist3: autoDraw = False
+59.6877 	EXP 	dist4: image = <class 'numpy.ndarray'>
+59.6877 	EXP 	dist4: ori = 90.0
+59.6877 	EXP 	dist4: autoDraw = True
+59.6877 	EXP 	dist5: image = <class 'numpy.ndarray'>
+59.6877 	EXP 	dist5: ori = 270.0
+59.6877 	EXP 	dist5: autoDraw = True
+59.6877 	EXP 	dist6: image = <class 'numpy.ndarray'>
+59.6877 	EXP 	dist6: ori = 90.0
+59.6877 	EXP 	dist6: autoDraw = True
+59.6877 	EXP 	dist7: image = <class 'numpy.ndarray'>
+59.6877 	EXP 	dist7: ori = 90.0
+59.6877 	EXP 	dist7: autoDraw = True
+59.6877 	EXP 	Target: image = <class 'numpy.ndarray'>
+59.6877 	EXP 	Target: ori = 270.0
+59.6877 	EXP 	Target: pos = array([-0.14142136, -0.14142136])
+59.6877 	EXP 	Target: autoDraw = True
+59.6877 	EXP 	Distractor: image = <class 'numpy.ndarray'>
+59.6877 	EXP 	Distractor: ori = 90.0
+59.6877 	EXP 	Distractor: pos = array([ 0.14142136, -0.14142136])
+59.6877 	EXP 	Distractor: autoDraw = True
+59.6877 	EXP 	fixcross_search: size = array([0.025, 0.025])
+59.6877 	EXP 	fixcross_search: autoDraw = True
+71.5388 	WARNING 	Got keycode {} but that code isn't yet known
+71.5388 	WARNING 	Keypress was given unknown key code (234)
+71.7212 	WARNING 	Got keycode {} but that code isn't yet known
+71.7212 	WARNING 	Keypress was given unknown key code (234)
+71.9063 	WARNING 	Got keycode {} but that code isn't yet known
+71.9064 	WARNING 	Keypress was given unknown key code (234)
+72.0732 	WARNING 	Got keycode {} but that code isn't yet known
+72.0733 	WARNING 	Keypress was given unknown key code (234)
+72.7377 	WARNING 	Got keycode {} but that code isn't yet known
+72.7378 	WARNING 	Keypress was given unknown key code (234)
+73.0045 	WARNING 	Got keycode {} but that code isn't yet known
+73.0046 	WARNING 	Keypress was given unknown key code (234)
+73.2555 	WARNING 	Got keycode {} but that code isn't yet known
+73.2556 	WARNING 	Keypress was given unknown key code (234)
+86.1541 	EXP 	fixcross_search: autoDraw = False
+86.1541 	EXP 	dist0: autoDraw = False
+86.1541 	EXP 	dist1: autoDraw = False
+86.1541 	EXP 	dist2: autoDraw = False
+86.1541 	EXP 	dist3: autoDraw = False
+86.1541 	EXP 	dist4: autoDraw = False
+86.1541 	EXP 	dist5: autoDraw = False
+86.1541 	EXP 	dist6: autoDraw = False
+86.1541 	EXP 	dist7: autoDraw = False
+86.1541 	EXP 	Target: autoDraw = False
+86.1541 	EXP 	Distractor: autoDraw = False
+86.1541 	EXP 	feedback_text: color = 'darkgreen (named)'
+86.1541 	EXP 	feedback_text: text = 'Correct'
+86.1541 	EXP 	feedback_text: autoDraw = True
+86.6433 	EXP 	New trial (rep=0, index=1): OrderedDict([('tar_ori', 1), ('tar_pos', 7), ('dist_tilt', 2), ('dist_pos', 2), ('tar_pos_type', 1), ('dist_pos_type', 3), ('dist_letter', 0), ('dist_ori', 1)])
+86.6536 	EXP 	feedback_text: autoDraw = False
+86.6536 	EXP 	unnamed TextStim: autoDraw = False
+86.6536 	EXP 	fixcross: size = array([0.025, 0.025])
+86.6536 	EXP 	fixcross: autoDraw = True
+87.6707 	EXP 	fixcross: autoDraw = False
+87.6707 	EXP 	fixcross: autoDraw = False
+87.6707 	EXP 	dist0: image = <class 'numpy.ndarray'>
+87.6707 	EXP 	dist0: ori = 270.0
+87.6707 	EXP 	dist0: autoDraw = True
+87.6707 	EXP 	dist1: image = <class 'numpy.ndarray'>
+87.6707 	EXP 	dist1: ori = 90.0
+87.6707 	EXP 	dist1: autoDraw = True
+87.6707 	EXP 	dist2: autoDraw = False
+87.6707 	EXP 	dist3: image = <class 'numpy.ndarray'>
+87.6707 	EXP 	dist3: ori = 270.0
+87.6707 	EXP 	dist3: autoDraw = True
+87.6707 	EXP 	dist4: image = <class 'numpy.ndarray'>
+87.6707 	EXP 	dist4: ori = 90.0
+87.6707 	EXP 	dist4: autoDraw = True
+87.6707 	EXP 	dist5: image = <class 'numpy.ndarray'>
+87.6707 	EXP 	dist5: ori = 90.0
+87.6707 	EXP 	dist5: autoDraw = True
+87.6707 	EXP 	dist6: image = <class 'numpy.ndarray'>
+87.6707 	EXP 	dist6: ori = 90.0
+87.6707 	EXP 	dist6: autoDraw = True
+87.6707 	EXP 	dist7: autoDraw = False
+87.6707 	EXP 	Target: image = <class 'numpy.ndarray'>
+87.6707 	EXP 	Target: ori = 90.0
+87.6707 	EXP 	Target: pos = array([0.14142136, 0.14142136])
+87.6707 	EXP 	Target: autoDraw = True
+87.6707 	EXP 	Distractor: image = <class 'numpy.ndarray'>
+87.6707 	EXP 	Distractor: ori = 270.0
+87.6707 	EXP 	Distractor: pos = array([ 1.2246468e-17, -2.0000000e-01])
+87.6707 	EXP 	Distractor: autoDraw = True
+87.6707 	EXP 	fixcross_search: size = array([0.025, 0.025])
+87.6707 	EXP 	fixcross_search: autoDraw = True
+114.7412 	DATA 	Mouse: Left button down, pos=(670,452)
+114.8405 	DATA 	Mouse:  Left button up, pos=(670,452)
+128.7100 	DATA 	Keypress: f
+128.7197 	EXP 	fixcross_search: autoDraw = False
+128.7197 	EXP 	dist0: autoDraw = False
+128.7197 	EXP 	dist1: autoDraw = False
+128.7197 	EXP 	dist2: autoDraw = False
+128.7197 	EXP 	dist3: autoDraw = False
+128.7197 	EXP 	dist4: autoDraw = False
+128.7197 	EXP 	dist5: autoDraw = False
+128.7197 	EXP 	dist6: autoDraw = False
+128.7197 	EXP 	dist7: autoDraw = False
+128.7197 	EXP 	Target: autoDraw = False
+128.7197 	EXP 	Distractor: autoDraw = False
+128.7197 	EXP 	feedback_text: color = 'darkred (named)'
+128.7197 	EXP 	feedback_text: text = 'Incorrect'
+128.7197 	EXP 	feedback_text: autoDraw = True
+129.2047 	EXP 	New trial (rep=0, index=2): OrderedDict([('tar_ori', 1), ('tar_pos', 6), ('dist_tilt', 2), ('dist_pos', 2), ('tar_pos_type', 1), ('dist_pos_type', 1), ('dist_letter', 0), ('dist_ori', 1)])
+129.2199 	EXP 	feedback_text: autoDraw = False
+129.2199 	EXP 	feedback_text: autoDraw = False
+129.2199 	EXP 	unnamed TextStim: autoDraw = False
+129.2199 	EXP 	fixcross: size = array([0.025, 0.025])
+129.2199 	EXP 	fixcross: autoDraw = True
+130.2371 	EXP 	fixcross: autoDraw = False
+130.2371 	EXP 	fixcross: autoDraw = False
+130.2371 	EXP 	dist0: image = <class 'numpy.ndarray'>
+130.2371 	EXP 	dist0: ori = 90.0
+130.2371 	EXP 	dist0: autoDraw = True
+130.2371 	EXP 	dist1: image = <class 'numpy.ndarray'>
+130.2371 	EXP 	dist1: ori = 270.0
+130.2371 	EXP 	dist1: autoDraw = True
+130.2371 	EXP 	dist2: autoDraw = False
+130.2371 	EXP 	dist3: image = <class 'numpy.ndarray'>
+130.2371 	EXP 	dist3: ori = 90.0
+130.2371 	EXP 	dist3: autoDraw = True
+130.2371 	EXP 	dist4: image = <class 'numpy.ndarray'>
+130.2371 	EXP 	dist4: ori = 90.0
+130.2371 	EXP 	dist4: autoDraw = True
+130.2371 	EXP 	dist5: image = <class 'numpy.ndarray'>
+130.2371 	EXP 	dist5: ori = 270.0
+130.2371 	EXP 	dist5: autoDraw = True
+130.2371 	EXP 	dist6: autoDraw = False
+130.2371 	EXP 	dist7: image = <class 'numpy.ndarray'>
+130.2371 	EXP 	dist7: ori = 270.0
+130.2371 	EXP 	dist7: autoDraw = True
+130.2371 	EXP 	Target: image = <class 'numpy.ndarray'>
+130.2371 	EXP 	Target: ori = 90.0
+130.2371 	EXP 	Target: pos = array([-3.6739404e-17,  2.0000000e-01])
+130.2371 	EXP 	Target: autoDraw = True
+130.2371 	EXP 	Distractor: image = <class 'numpy.ndarray'>
+130.2371 	EXP 	Distractor: ori = 270.0
+130.2371 	EXP 	Distractor: pos = array([ 1.2246468e-17, -2.0000000e-01])
+130.2371 	EXP 	Distractor: autoDraw = True
+130.2371 	EXP 	fixcross_search: size = array([0.025, 0.025])
+130.2371 	EXP 	fixcross_search: autoDraw = True
+151.8628 	DATA 	Keypress: f
+151.8863 	EXP 	fixcross_search: autoDraw = False
+151.8863 	EXP 	dist0: autoDraw = False
+151.8863 	EXP 	dist1: autoDraw = False
+151.8863 	EXP 	dist2: autoDraw = False
+151.8863 	EXP 	dist3: autoDraw = False
+151.8863 	EXP 	dist4: autoDraw = False
+151.8863 	EXP 	dist5: autoDraw = False
+151.8863 	EXP 	dist6: autoDraw = False
+151.8863 	EXP 	dist7: autoDraw = False
+151.8863 	EXP 	Target: autoDraw = False
+151.8863 	EXP 	Distractor: autoDraw = False
+151.8863 	EXP 	feedback_text: color = 'darkred (named)'
+151.8863 	EXP 	feedback_text: text = 'Incorrect'
+151.8863 	EXP 	feedback_text: autoDraw = True
+152.3723 	EXP 	New trial (rep=0, index=3): OrderedDict([('tar_ori', 1), ('tar_pos', 6), ('dist_tilt', 1), ('dist_pos', 3), ('tar_pos_type', 1), ('dist_pos_type', 3), ('dist_letter', 1), ('dist_ori', 0)])
+152.3864 	EXP 	feedback_text: autoDraw = False
+152.3864 	EXP 	unnamed TextStim: autoDraw = False
+152.3864 	EXP 	fixcross: size = array([0.025, 0.025])
+152.3864 	EXP 	fixcross: autoDraw = True
+153.4030 	EXP 	fixcross: autoDraw = False
+153.4030 	EXP 	fixcross: autoDraw = False
+153.4030 	EXP 	dist0: image = <class 'numpy.ndarray'>
+153.4030 	EXP 	dist0: ori = 90.0
+153.4030 	EXP 	dist0: autoDraw = True
+153.4030 	EXP 	dist1: image = <class 'numpy.ndarray'>
+153.4030 	EXP 	dist1: ori = 90.0
+153.4030 	EXP 	dist1: autoDraw = True
+153.4030 	EXP 	dist2: image = <class 'numpy.ndarray'>
+153.4030 	EXP 	dist2: ori = 270.0
+153.4030 	EXP 	dist2: autoDraw = True
+153.4030 	EXP 	dist3: autoDraw = False
+153.4030 	EXP 	dist4: image = <class 'numpy.ndarray'>
+153.4030 	EXP 	dist4: ori = 90.0
+153.4030 	EXP 	dist4: autoDraw = True
+153.4030 	EXP 	dist5: image = <class 'numpy.ndarray'>
+153.4030 	EXP 	dist5: ori = 90.0
+153.4030 	EXP 	dist5: autoDraw = True
+153.4030 	EXP 	dist6: autoDraw = False
+153.4030 	EXP 	dist7: image = <class 'numpy.ndarray'>
+153.4030 	EXP 	dist7: ori = 270.0
+153.4030 	EXP 	dist7: autoDraw = True
+153.4030 	EXP 	Target: image = <class 'numpy.ndarray'>
+153.4030 	EXP 	Target: ori = 90.0
+153.4030 	EXP 	Target: pos = array([-3.6739404e-17,  2.0000000e-01])
+153.4030 	EXP 	Target: autoDraw = True
+153.4030 	EXP 	Distractor: image = <class 'numpy.ndarray'>
+153.4030 	EXP 	Distractor: ori = 90.0
+153.4030 	EXP 	Distractor: pos = array([-0.14142136, -0.14142136])
+153.4030 	EXP 	Distractor: autoDraw = True
+153.4030 	EXP 	fixcross_search: size = array([0.025, 0.025])
+153.4030 	EXP 	fixcross_search: autoDraw = True
+160.4864 	EXP 	fixcross_search: autoDraw = False
+160.4864 	EXP 	dist0: autoDraw = False
+160.4864 	EXP 	dist1: autoDraw = False
+160.4864 	EXP 	dist2: autoDraw = False
+160.4864 	EXP 	dist3: autoDraw = False
+160.4864 	EXP 	dist4: autoDraw = False
+160.4864 	EXP 	dist5: autoDraw = False
+160.4864 	EXP 	dist6: autoDraw = False
+160.4864 	EXP 	dist7: autoDraw = False
+160.4864 	EXP 	Target: autoDraw = False
+160.4864 	EXP 	Distractor: autoDraw = False
+160.4864 	EXP 	feedback_text: color = 'darkred (named)'
+160.4864 	EXP 	feedback_text: text = 'Incorrect'
+160.4864 	EXP 	feedback_text: autoDraw = True
+160.9721 	EXP 	New trial (rep=0, index=4): OrderedDict([('tar_ori', 1), ('tar_pos', 5), ('dist_tilt', 1), ('dist_pos', 4), ('tar_pos_type', 1), ('dist_pos_type', 3), ('dist_letter', 1), ('dist_ori', 0)])
+160.9862 	EXP 	feedback_text: autoDraw = False
+160.9862 	EXP 	feedback_text: autoDraw = False
+160.9862 	EXP 	unnamed TextStim: autoDraw = False
+160.9862 	EXP 	fixcross: size = array([0.025, 0.025])
+160.9862 	EXP 	fixcross: autoDraw = True
+161.9871 	EXP 	fixcross: autoDraw = False
+161.9871 	EXP 	fixcross: autoDraw = False
+161.9871 	EXP 	dist0: image = <class 'numpy.ndarray'>
+161.9871 	EXP 	dist0: ori = 90.0
+161.9871 	EXP 	dist0: autoDraw = True
+161.9871 	EXP 	dist1: image = <class 'numpy.ndarray'>
+161.9871 	EXP 	dist1: ori = 90.0
+161.9871 	EXP 	dist1: autoDraw = True
+161.9871 	EXP 	dist2: image = <class 'numpy.ndarray'>
+161.9871 	EXP 	dist2: ori = 90.0
+161.9871 	EXP 	dist2: autoDraw = True
+161.9871 	EXP 	dist3: image = <class 'numpy.ndarray'>
+161.9871 	EXP 	dist3: ori = 90.0
+161.9871 	EXP 	dist3: autoDraw = True
+161.9871 	EXP 	dist4: autoDraw = False
+161.9871 	EXP 	dist5: autoDraw = False
+161.9871 	EXP 	dist6: image = <class 'numpy.ndarray'>
+161.9871 	EXP 	dist6: ori = 270.0
+161.9871 	EXP 	dist6: autoDraw = True
+161.9871 	EXP 	dist7: image = <class 'numpy.ndarray'>
+161.9871 	EXP 	dist7: ori = 270.0
+161.9871 	EXP 	dist7: autoDraw = True
+161.9871 	EXP 	Target: image = <class 'numpy.ndarray'>
+161.9871 	EXP 	Target: ori = 90.0
+161.9871 	EXP 	Target: pos = array([-0.14142136,  0.14142136])
+161.9871 	EXP 	Target: autoDraw = True
+161.9871 	EXP 	Distractor: image = <class 'numpy.ndarray'>
+161.9871 	EXP 	Distractor: ori = 90.0
+161.9871 	EXP 	Distractor: pos = array([-2.0000000e-01, -2.4492936e-17])
+161.9871 	EXP 	Distractor: autoDraw = True
+161.9871 	EXP 	fixcross_search: size = array([0.025, 0.025])
+161.9871 	EXP 	fixcross_search: autoDraw = True
+167.3527 	EXP 	fixcross_search: autoDraw = False
+167.3527 	EXP 	dist0: autoDraw = False
+167.3527 	EXP 	dist1: autoDraw = False
+167.3527 	EXP 	dist2: autoDraw = False
+167.3527 	EXP 	dist3: autoDraw = False
+167.3527 	EXP 	dist4: autoDraw = False
+167.3527 	EXP 	dist5: autoDraw = False
+167.3527 	EXP 	dist6: autoDraw = False
+167.3527 	EXP 	dist7: autoDraw = False
+167.3527 	EXP 	Target: autoDraw = False
+167.3527 	EXP 	Distractor: autoDraw = False
+167.3527 	EXP 	feedback_text: color = 'darkgreen (named)'
+167.3527 	EXP 	feedback_text: text = 'Correct'
+167.3527 	EXP 	feedback_text: autoDraw = True
+167.8704 	EXP 	New trial (rep=0, index=5): OrderedDict([('tar_ori', 1), ('tar_pos', 7), ('dist_tilt', 1), ('dist_pos', 4), ('tar_pos_type', 1), ('dist_pos_type', 1), ('dist_letter', 0), ('dist_ori', 0)])
+167.8857 	EXP 	feedback_text: autoDraw = False
+167.8857 	EXP 	unnamed TextStim: autoDraw = False
+167.8857 	EXP 	fixcross: size = array([0.025, 0.025])
+167.8857 	EXP 	fixcross: autoDraw = True
+168.9029 	EXP 	fixcross: autoDraw = False
+168.9029 	EXP 	fixcross: autoDraw = False
+168.9029 	EXP 	dist0: image = <class 'numpy.ndarray'>
+168.9029 	EXP 	dist0: ori = 270.0
+168.9029 	EXP 	dist0: autoDraw = True
+168.9029 	EXP 	dist1: image = <class 'numpy.ndarray'>
+168.9029 	EXP 	dist1: ori = 90.0
+168.9029 	EXP 	dist1: autoDraw = True
+168.9029 	EXP 	dist2: image = <class 'numpy.ndarray'>
+168.9029 	EXP 	dist2: ori = 270.0
+168.9029 	EXP 	dist2: autoDraw = True
+168.9029 	EXP 	dist3: image = <class 'numpy.ndarray'>
+168.9029 	EXP 	dist3: ori = 90.0
+168.9029 	EXP 	dist3: autoDraw = True
+168.9029 	EXP 	dist4: autoDraw = False
+168.9029 	EXP 	dist5: image = <class 'numpy.ndarray'>
+168.9029 	EXP 	dist5: ori = 90.0
+168.9029 	EXP 	dist5: autoDraw = True
+168.9029 	EXP 	dist6: image = <class 'numpy.ndarray'>
+168.9029 	EXP 	dist6: ori = 270.0
+168.9029 	EXP 	dist6: autoDraw = True
+168.9029 	EXP 	dist7: autoDraw = False
+168.9029 	EXP 	Target: image = <class 'numpy.ndarray'>
+168.9029 	EXP 	Target: ori = 90.0
+168.9029 	EXP 	Target: pos = array([0.14142136, 0.14142136])
+168.9029 	EXP 	Target: autoDraw = True
+168.9029 	EXP 	Distractor: image = <class 'numpy.ndarray'>
+168.9029 	EXP 	Distractor: ori = 90.0
+168.9029 	EXP 	Distractor: pos = array([-2.0000000e-01, -2.4492936e-17])
+168.9029 	EXP 	Distractor: autoDraw = True
+168.9029 	EXP 	fixcross_search: size = array([0.025, 0.025])
+168.9029 	EXP 	fixcross_search: autoDraw = True
+179.8806 	DATA 	Keypress: f
+179.9028 	EXP 	fixcross_search: autoDraw = False
+179.9028 	EXP 	dist0: autoDraw = False
+179.9028 	EXP 	dist1: autoDraw = False
+179.9028 	EXP 	dist2: autoDraw = False
+179.9028 	EXP 	dist3: autoDraw = False
+179.9028 	EXP 	dist4: autoDraw = False
+179.9028 	EXP 	dist5: autoDraw = False
+179.9028 	EXP 	dist6: autoDraw = False
+179.9028 	EXP 	dist7: autoDraw = False
+179.9028 	EXP 	Target: autoDraw = False
+179.9028 	EXP 	Distractor: autoDraw = False
+179.9028 	EXP 	feedback_text: color = 'darkred (named)'
+179.9028 	EXP 	feedback_text: text = 'Incorrect'
+179.9028 	EXP 	feedback_text: autoDraw = True
+180.3881 	EXP 	New trial (rep=0, index=6): OrderedDict([('tar_ori', 2), ('tar_pos', 0), ('dist_tilt', 2), ('dist_pos', 5), ('tar_pos_type', 1), ('dist_pos_type', 3), ('dist_letter', 0), ('dist_ori', 0)])
+180.4026 	EXP 	feedback_text: autoDraw = False
+180.4026 	EXP 	unnamed TextStim: autoDraw = False
+180.4026 	EXP 	fixcross: size = array([0.025, 0.025])
+180.4026 	EXP 	fixcross: autoDraw = True
+181.4194 	EXP 	fixcross: autoDraw = False
+181.4194 	EXP 	fixcross: autoDraw = False
+181.4194 	EXP 	dist0: autoDraw = False
+181.4194 	EXP 	dist1: image = <class 'numpy.ndarray'>
+181.4194 	EXP 	dist1: ori = 90.0
+181.4194 	EXP 	dist1: autoDraw = True
+181.4194 	EXP 	dist2: image = <class 'numpy.ndarray'>
+181.4194 	EXP 	dist2: ori = 90.0
+181.4194 	EXP 	dist2: autoDraw = True
+181.4194 	EXP 	dist3: image = <class 'numpy.ndarray'>
+181.4194 	EXP 	dist3: ori = 270.0
+181.4194 	EXP 	dist3: autoDraw = True
+181.4194 	EXP 	dist4: image = <class 'numpy.ndarray'>
+181.4194 	EXP 	dist4: ori = 90.0
+181.4194 	EXP 	dist4: autoDraw = True
+181.4194 	EXP 	dist5: autoDraw = False
+181.4194 	EXP 	dist6: image = <class 'numpy.ndarray'>
+181.4194 	EXP 	dist6: ori = 270.0
+181.4194 	EXP 	dist6: autoDraw = True
+181.4194 	EXP 	dist7: image = <class 'numpy.ndarray'>
+181.4194 	EXP 	dist7: ori = 270.0
+181.4194 	EXP 	dist7: autoDraw = True
+181.4194 	EXP 	Target: image = <class 'numpy.ndarray'>
+181.4194 	EXP 	Target: ori = 270.0
+181.4194 	EXP 	Target: pos = array([0.2, 0. ])
+181.4194 	EXP 	Target: autoDraw = True
+181.4194 	EXP 	Distractor: image = <class 'numpy.ndarray'>
+181.4194 	EXP 	Distractor: ori = 90.0
+181.4194 	EXP 	Distractor: pos = array([-0.14142136,  0.14142136])
+181.4194 	EXP 	Distractor: autoDraw = True
+181.4194 	EXP 	fixcross_search: size = array([0.025, 0.025])
+181.4194 	EXP 	fixcross_search: autoDraw = True
+183.0525 	EXP 	fixcross_search: autoDraw = False
+183.0525 	EXP 	dist0: autoDraw = False
+183.0525 	EXP 	dist1: autoDraw = False
+183.0525 	EXP 	dist2: autoDraw = False
+183.0525 	EXP 	dist3: autoDraw = False
+183.0525 	EXP 	dist4: autoDraw = False
+183.0525 	EXP 	dist5: autoDraw = False
+183.0525 	EXP 	dist6: autoDraw = False
+183.0525 	EXP 	dist7: autoDraw = False
+183.0525 	EXP 	Target: autoDraw = False
+183.0525 	EXP 	Distractor: autoDraw = False
+183.0525 	EXP 	feedback_text: color = 'darkred (named)'
+183.0525 	EXP 	feedback_text: text = 'Incorrect'
+183.0525 	EXP 	feedback_text: autoDraw = True
+183.5377 	EXP 	New trial (rep=0, index=7): OrderedDict([('tar_ori', 2), ('tar_pos', 3), ('dist_tilt', 1), ('dist_pos', 6), ('tar_pos_type', 1), ('dist_pos_type', 3), ('dist_letter', 1), ('dist_ori', 0)])
+183.5528 	EXP 	feedback_text: autoDraw = False
+183.5528 	EXP 	feedback_text: autoDraw = False
+183.5528 	EXP 	unnamed TextStim: autoDraw = False
+183.5528 	EXP 	fixcross: size = array([0.025, 0.025])
+183.5528 	EXP 	fixcross: autoDraw = True
+184.5693 	EXP 	fixcross: autoDraw = False
+184.5693 	EXP 	fixcross: autoDraw = False
+184.5693 	EXP 	dist0: image = <class 'numpy.ndarray'>
+184.5693 	EXP 	dist0: ori = 270.0
+184.5693 	EXP 	dist0: autoDraw = True
+184.5693 	EXP 	dist1: image = <class 'numpy.ndarray'>
+184.5693 	EXP 	dist1: ori = 270.0
+184.5693 	EXP 	dist1: autoDraw = True
+184.5693 	EXP 	dist2: image = <class 'numpy.ndarray'>
+184.5693 	EXP 	dist2: ori = 270.0
+184.5693 	EXP 	dist2: autoDraw = True
+184.5693 	EXP 	dist3: autoDraw = False
+184.5693 	EXP 	dist4: image = <class 'numpy.ndarray'>
+184.5693 	EXP 	dist4: ori = 270.0
+184.5693 	EXP 	dist4: autoDraw = True
+184.5693 	EXP 	dist5: image = <class 'numpy.ndarray'>
+184.5693 	EXP 	dist5: ori = 270.0
+184.5693 	EXP 	dist5: autoDraw = True
+184.5693 	EXP 	dist6: autoDraw = False
+184.5693 	EXP 	dist7: image = <class 'numpy.ndarray'>
+184.5693 	EXP 	dist7: ori = 270.0
+184.5693 	EXP 	dist7: autoDraw = True
+184.5693 	EXP 	Target: image = <class 'numpy.ndarray'>
+184.5693 	EXP 	Target: ori = 270.0
+184.5693 	EXP 	Target: pos = array([-0.14142136, -0.14142136])
+184.5693 	EXP 	Target: autoDraw = True
+184.5693 	EXP 	Distractor: image = <class 'numpy.ndarray'>
+184.5693 	EXP 	Distractor: ori = 90.0
+184.5693 	EXP 	Distractor: pos = array([-3.6739404e-17,  2.0000000e-01])
+184.5693 	EXP 	Distractor: autoDraw = True
+184.5693 	EXP 	fixcross_search: size = array([0.025, 0.025])
+184.5693 	EXP 	fixcross_search: autoDraw = True
+185.1088 	DATA 	Keypress: escape
+186.7679 	EXP 	window1: mouseVisible = True
+186.7680 	DEBUG 	Saving data for dyndist ExperimentHandler
+186.8131 	INFO 	saved data to /Users/haileyyu/Desktop/新文件夹/project 1/distractor search/shape singleton/program/data/test_dyndist_2021_Jun_28_1721.psydat
+186.8150 	INFO 	saved data to '/Users/haileyyu/Desktop/新文件夹/project 1/distractor search/shape singleton/program/data/test_dyndist_2021_Jun_28_1721.csv'
