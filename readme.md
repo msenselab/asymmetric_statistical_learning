@@ -16,6 +16,7 @@ There are four subfolders, each contains one independent experiment.
 - Exp. 1: Target regularity (Additional singleton paradigm)
 - Exp. 2: Distractor regularity (Letter search paradigm)
 - Exp. 2: Target regularity (Letter search paradigm)
+- Pilot: Pilot experiments on distractor regularity (Additional singleton paradigm)
 
 The folder name indicates the manipulation of the dynamic regularity.  Each subfolder contains the experimental `code` (Matlab code / PsychoPy). The raw data are stored in the subfolder `data`, and the experiental sequences in the subfolder `sequences`. Anysis codes are in R and additional analysis with JASP in the subfolder `Analysis with JASP`. Experimental results are stored in `figures`.
 
