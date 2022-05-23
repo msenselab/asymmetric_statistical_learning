@@ -10,7 +10,7 @@ Static statistical regularities in the placement of targets and salient distract
 
 ## Data Structure
 
-There are four subfolders, each contains one independent experiment. 
+There are five subfolders, each contains one independent experiment. 
 
 - Exp. 1: Distractor regularity (Additional singleton paradigm)
 - Exp. 1: Target regularity (Additional singleton paradigm)
